@@ -1,6 +1,19 @@
+.chatwin {
+  padding: 0.5rem;
+  margin: 1rem;
+
+}
+.chatandrepo {
+  display: flex;
+  flex-direction: row;  
+  margin: 1rem;
+}
+
 .file-repository {
   width: 100%;
   max-width: 64rem;
+  margin: 1rem;
+
 }
 
 .repository-header {

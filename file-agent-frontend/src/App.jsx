@@ -20,6 +20,8 @@ const FileRepository = () => {
   };
 
   return (
+    <div className='chatandrepo'>
+
     <Card className="file-repository">
       <CardHeader className="repository-header">
         <CardTitle>File Repository</CardTitle>
@@ -70,8 +72,11 @@ const FileRepository = () => {
           ))}
         </div>
       </CardContent>
-      <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/f834a131-53b4-4ae3-8bd2-ac26a1f1193e"></iframe>
+
     </Card>
+    <iframe className='chatwin' width="350" height="730" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/f834a131-53b4-4ae3-8bd2-ac26a1f1193e">
+    </iframe>   
+    </div>
   );
 };
 
