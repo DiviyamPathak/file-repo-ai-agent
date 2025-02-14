@@ -1,0 +1,35 @@
+.file-upload {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.file-input {
+  padding: 0.5rem;
+}
+
+.tags-input {
+  padding: 0.5rem;
+  flex-grow: 1;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-icon {
+  margin-right: 0.5rem;
+}

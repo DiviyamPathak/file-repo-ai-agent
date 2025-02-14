@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Werkzeug
+gunicorn
+mysql-connector-python
+google-cloud-storage
+python-dotenv
+cloud-sql-python-connector[pymysql]
+sqlalchemy
